@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>WEATHER APP</title>
+
+    <!-- Template CSS -->
+    <script src="https://kit.fontawesome.com/2e562e1a14.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+   
+
+  </head>
+  <body id="home">
+   
+    
+
+
+<section class=" w3l-header-4 header-sticky">
+    <header class="absolute-top">
+        <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <h1><a class="navbar-brand" href="index.html"> <!--<span class="fa fa-line-chart" aria-hidden="true"></span> -->
+           MS-WEATHER APP
+            </a></h1>
+            <button class="navbar-toggler bg-gradient collapsed" type="button" data-toggle="collapse"
+                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="fa icon-expand fa-bars"></span>
+				<span class="fa icon-close fa-times"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">forecast <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Developer</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li> 
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Notifications</a>
+                    </li>
+                </ul>
+                  <form action="#" method="post">
+                    <div class="search-button d-flex">
+                    <input class="form-control search" type="search" placeholder="Search here..." aria-label="Search" required="">
+                    <button class="btn buttn-subscribe" type="submit"><span class="fa fa-search" aria-hidden="true"></span></button>
+                </div>  
+                </form>
+            </div>
+        </div>
+
+        </nav>
+    </div>
+      </header>
+</section>
+
+<script src="assets/js/jquery-3.3.1.min.js"></script> <!-- Common jquery plugin -->
+<!--bootstrap working-->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- //bootstrap working-->
+<!-- disable body scroll which navbar is in active -->
+<script>
+$(function () {
+  $('.navbar-toggler').click(function () {
+    $('body').toggleClass('noscroll');
+  })
+});
+</script>
+<!-- disable body scroll which navbar is in active -->
+
+
+<div class="container">
+  <h4><br> <b> Please enter a city name below to retrieve the weather details:</b></h4>
+  <input type="text" id="city" placeholder="Enter City Name">
+  <button id="search-btn">Search</button>
+  <div class="temp-info">
+    <h2><i class="fas fa-thermometer-half"></i> Temperature</h2>
+    <p id="temp"></p>
+  </div>
+  <div class="hum-info">
+    <h2><i class="fas fa-tint"></i> Humidity</h2>
+    <p id="hum"></p>
+  </div>
+  <div class="wind-info">
+    <h2><i class="fas fa-wind"></i> Wind Info</h2>
+    <p id="wind-info"></p>
+  </div>
+</div>
+  <script src="assets/js/script1.js"></script>
+<br>
+<div class="w3l-hero-headers-9">
+  <div class="css-slider">
+    <input id="slide-1" type="radio" name="slides" checked>
+    <section class="slide slide-one">
+      <div class="container">
+        <div class="banner-text">
+          <h4>weather forecasting</h4>
+          <h3>Earth Environment<br>
+            WE PROVIDE TRUE ENVIRONMENTAL INTELLIGENCE
+</h3>
+            <p>Adipi sicing elit. Quia, aliquid odio Lorem ipsum dolor sit amet conse ctetur
+              tempora ex veniam assumenda voluptate, inventore dolorum sequi dolor enim aperiam
+              laudantium excepturi fugiat voluptatibus animi.</p>
+            <a href="contact.html" class="btn logo-button top-margin">GET WEATHER NEWS</a>
+        </div>
+      </div>
+      <!-- <nav>
+        <label for="slide-2" class="prev">&#10094;</label>
+        <label for="slide-1" class="next">&#10095;</label>
+      </nav> -->
+    </section>
+    <input id="slide-2" type="radio" name="slides">
+    <section class="slide slide-two">
+      <div class="container">
+        <div class="banner-text">
+          <h4>weather forecasting</h4>
+          <h3>Earth Environment<br>
+            WE PROVIDE TRUE ENVIRONMENTAL INTELLIGENCE</h3>
+          <p>Adipi sicing elit. Quia, aliquid odio Lorem ipsum dolor sit amet conse ctetur
+            tempora ex veniam assumenda voluptate, inventore dolorum sequi dolor enim aperiam
+            laudantium excepturi fugiat voluptatibus animi.</p>
+          <a href="contact.html" class="btn logo-button top-margin">GET WEATHER NEWS</a>
+        </div>
+      </div>
+      <!-- <nav>
+        <label for="slide-2" class="prev">&#10094;</label>
+        <label for="slide-1" class="next">&#10095;</label>
+      </nav> -->
+    </section>
+    <header>
+      <label for="slide-1" id="slide-1"></label>
+      <label for="slide-2" id="slide-2"></label>
+    </header>
+  </div>
+</div> 
+<section class="w3l-call-to-action_9">
+    <div class="call-w3 ">
+        <div class="container">
+            <div class="grids">
+                    <div class="grids-content row">
+
+                        <div class="column col-lg-4 col-md-6 color-2 ">
+                            <div>
+                            <h4 class=" ">Forecasting weather is Most helpfull</h4>
+                            <p class="para ">There is a vast variety of end uses to weather forecasts. Weather warnings are important forecasts because they are used to protect life and property. Forecasts based on temperature and precipitation are important to agriculture, and therefore to traders within commodity markets. Temperature forecasts are used by utility companies to estimate demand over coming days...</p>
+                            <a href="about.html" class="action-button btn mt-md-4 mt-3">Read more</a>
+                        </div>
+                    </div>
+                        <div class="column col-lg-4 col-md-6 col-sm-6 back-image  ">
+                            <img src="assets/images/5.jpg" alt="product" class="img-responsive ">
+                        </div>
+                        <div class="column col-lg-4 col-md-6 col-sm-6 back-image2 ">
+                            <img src="assets/images/6.jpg" alt="product" class="img-responsive ">
+                          </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</section>
+<section class="w3l-teams-15">
+	<div class="team-single-main ">
+		<div class="container">
+		
+				<div class="column2 image-text">
+					<h3 class="team-head ">Causes of Extreme Weather Conditions</h3>
+					<p class="para  text ">
+						A warming planet. ... More carbon dioxide emissions make the planet just a little bit warmer. ... As the planet’s oceans grow warmer, the rising temperature causes more moisture to evaporate into the atmosphere. ... The increasing density of the population in rural areas results to increased waste generation. ... The continued degradation of forests and other natural resources..
+
+</p>
+						<a href="contact.html" class="btn logo-button top-margin mt-4">Get WEATHER NEWS</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="w3l-covers-18">
+        <div class="covers-main ">
+            <div class="container">
+                <div class="gallery-image">
+                  <div class="column color-2 ">
+                    <div>
+                    <h4 class=" ">Astronomical information</h4>
+                    <p class="para ">The Universe is expanding, so we naturally expect that it must have started at a single point of infinite density sometime in the past, which expanded suddenly in an event known as the Big Bang. This early explosion scattered a ball of glowing fire across the whole Universe, which we can observe today as Cosmic Background Radiation (CBR). It was discovered in 1964 by American astronomers Arno Penzias and Robert Wilson</p>
+                    <a href="about.html" class="action-button btn mt-md-4 mt-3">Read more</a>
+                </div>
+            </div>
+                  <div class="img-box">
+                    <img src="assets/images/7.jpg" alt="product" class="img-responsive ">
+                    <div class="transparent-box">
+                      <div class="caption">
+                        <p>pacific ocean</p>
+                        <p class="opacity-low">currents</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="img-box">
+                    <img src="assets/images/8.jpg" alt="product" class="img-responsive ">
+                    <div class="transparent-box">
+                      <div class="caption">
+                        <p>Skin Care</p>
+                        <p class="opacity-low">Salon</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="img-box">
+                    <img src="assets/images/9.jpg" alt="product" class="img-responsive ">
+                    <div class="transparent-box">
+                      <div class="caption">
+                        <p>Nail Art</p>
+                        <p class="opacity-low">Salon</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="img-box">
+                    <img src="assets/images/10.jpg" alt="product" class="img-responsive ">
+                    <div class="transparent-box">
+                      <div class="caption">
+                        <p>Hair style</p>
+                        <p class="opacity-low">Salon</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="img-box">
+                    <img src="assets/images/11.jpg" alt="product" class="img-responsive ">
+                    <div class="transparent-box">
+                      <div class="caption">
+                        <p>Nail Art</p>
+                        <p class="opacity-low">Salon</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="w3l-clients">
+    <div class="main-w3">
+        <div class="container">
+            <!-- main-slider -->
+            <div class="main-slider text-center">
+                <div class="csslider infinity" id="slider1">
+                    <input type="radio" name="slide" checked="checked" id="slides_1" />
+                    <input type="radio" name="slide" id="slides_2" />
+                    <input type="radio" name="slide" id="slides_3" />
+                    <ul>
+                        <li>
+                            <div class="slider-info">
+                                <div class="d-grid hh14-text">
+                                    <div class="hh14-info">
+                                        <img src="assets/images/c1.jpg" alt="product" class="img-responsive ">
+                                        <p class="para">The year 2021 made an indelible mark in the annals of weather history. Not only did it feature the most extreme heat wave in history – the late June heat wave over western North America that smashed all-time records by unprecedented margins – it also had four weather mega-disasters costing over $20 billion each, tied with 2017 for the most such disasters on record.. </p>
+                                      <h5>North America</h5>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="slider-info">
+                                <div class="d-grid hh14-text">
+                                    <div class="hh14-info">
+                                        <img src="assets/images/c2.jpg" alt="product" class="img-responsive ">
+                                        <p class="para">After years of extreme drought and dismal snowpack, California has had a remarkably wet winter and is now veering into record-setting territory for snowfall. As of Friday, the snowpack in the southern Sierra was at 286% of normal — the highest figure ever, easily eclipsing the region’s benchmark of 263% set in 1969.</p>
+                                            <h5>California</h5>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="slider-info">
+                                <div class="d-grid hh14-text">
+                                    <div class="hh14-info">
+                                        <img src="assets/images/c3.jpg" alt="product" class="img-responsive ">
+                                        <p class="para">An extreme rainfall event of nearly unimaginable intensity hit Zhengzhou, China, on July 20, which recorded an astonishing 644.6 mm (25.38 inches) of rain in 24 hours. This is literally more than a year’s worth of rain: Its average annual precipitation (1981-2010 climatology) is only 640.9 mm (25.23 inches)..</p>
+                                            <h5>Zhengzhou, China</h5>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- <div class="arrows">
+                        <label for="slides_1"></label>
+                        <label for="slides_2"></label>
+                        <label for="slides_3"></label>
+                        <label for="slides_4"></label>
+                    </div> -->
+                    <div class="navigation">
+                        <div>
+                            <label for="slides_1"></label>
+                            <label for="slides_2"></label>
+                            <label for="slides_3"></label>
+                        </div>
+                </div>
+            </div>
+            <!-- /main-slider -->
+        </div>
+    </div>
+</section>
+
+<section class="w3l-specification-6">
+    <div class="specification-layout ">
+        <div class="container">
+            <div class=" row">
+                <div class="col-lg-6 back-image">
+                    <img src="assets/images/b1.jpg" alt="product" class="img-responsive ">
+                </div>
+                <div class="col-lg-6 about-right-faq align-self">
+                    <h3 class="title-big"><a href="about.html">dreastic weather changes</a></h3>
+                    <p class="mt-3 para"> .Climate change and increasingly extreme weather events, have caused a surge in natural disasters over the past 50 years disproportionately impacting poorer countries, the World Meteorological Organization (WMO) and UN Office for Disaster Risk Reduction (UNDRR) said on Wednesday...</p>
+                        <div class="hair-cut">
+                            <div >
+                    <ul class="w3l-right-book">
+                        <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">How Fast Is the Earth Moving?</a></li>
+                        <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">Color & highlights</a></li>
+                        <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">There Is Gravity on the ISS</a></li>
+                        <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">The Sun Is a Green Star</a></li>
+                        <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">The Moon Is the Great Stabilizer</a></li>
+                    </ul>
+                </div>
+                    <div  class="image-right">
+                        <ul class="w3l-right-book">
+                            <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">Earth’s Nearest Neighbor Is Not Venus</a></li>
+                            <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">We Are Made of Star Stuff</a></li>
+                            <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">The Beginning of Everything</a></li>
+                            <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html"> Early Life</a></li>
+                            <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">Where Are We Headed?</a></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+</section>
+<section class="w3l-footer-29-main">
+	<div class="footer-29 py-5">
+	  <div class="container py-lg-4">
+		<div class="row footer-top-29">
+		  <div class="col-lg-3 col-md-6 col-sm-8 footer-list-29 footer-1">
+			<h6 class="footer-title-29">Contact Us</h6>
+			<ul>
+			  <li>
+				<span class="fa fa-map-marker"></span> <p>Telangana, #32841 block,<br>karimnagar, diamond Building,
+
+  
+					india.</p>
+			  </li>
+			  <li><span class="fa fa-phone"></span><a href="tel:+7-800-999-800"> +(+91)8897922122</a></li>
+			  <li><span class="fa fa-envelope-open-o"></span><a href="mohammedsoheb330@mail.com" class="mail">
+				  mohammedsoheb330@mail.com</a></li>
+			</ul>
+		  </div>
+		  <div class="col-lg-2 col-md-6 col-sm-4 footer-list-29 footer-2 ">
+  
+			<ul>
+			  <h6 class="footer-title-29">Useful Links</h6>
+			  <li><a href="index.html">forecast</a></li>
+			  <li><a href="about.html">About</a></li>
+			  <li><a href="blog.html"> Blog posts</a></li>
+			  <li><a href="contact.html">Contact us</a></li>
+			</ul>
+		  </div>
+		  <div class="col-lg-3 col-md-6 col-sm-5 footer-list-29 footer-3">
+			  <h6 class="footer-title-29">Alerts And Warnings</h6>
+			  <div class="footer-post mb-3">
+				<a href="blog-single.html">weather reports</a>
+				<p class="small"><span class="fa fa-clock-o"></span> March , 2023</p>
+			  </div>
+			  <div class="footer-post">
+				<a href="blog-single.html">National Cyclone Attacks</a>
+				<p class="small"><span class="fa fa-clock-o"></span> March , 2023</p>
+			  </div>
+			  
+		  </div>
+		  <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-4">
+			<h6 class="footer-title-29">Newsletter </h6>
+			<p>Enter your email and receive daily weather updates from us.<br>
+			 We'll never share your email address</p>
+  
+			<form action="#" class="subscribe" method="post">
+			  <input type="email" name="email" placeholder="Your Email Address" required="">
+			  <button><span class="fa fa-envelope-o"></span></button>
+			</form>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>
+  <section class="w3l-footer-29-main w3l-copyright">
+	<div class="container">
+	  <div class="row bottom-copies">
+		<p class="col-lg-8 copy-footer-29">© 2023  Weather app . All rights reserved | Designed by MOHAMMED SOHEB</a></p>
+  
+		<div class="col-lg-4 main-social-footer-29">
+		  <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
+		  <a href="#twitter" class="twitter"><span class="fa fa-twitter"></span></a>
+		  <a href="#instagram" class="instagram"><span class="fa fa-instagram"></span></a>
+		  <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin"></span></a>
+		</div>
+  
+	  </div>
+	</div>
+  </section>
+<!-- move top -->
+<button onclick="topFunction()" id="movetop" title="Go to top">
+	<span class="fa fa-long-arrow-up"></span>
+</button>
+<script>
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function () {
+		scrollFunction()
+	};
+
+	function scrollFunction() {
+		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			document.getElementById("movetop").style.display = "block";
+		} else {
+			document.getElementById("movetop").style.display = "none";
+		}
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+	}
+</script>
+<!-- /move top -->
+</body>
+
+</html>
