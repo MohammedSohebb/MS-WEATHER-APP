@@ -53,11 +53,13 @@ web app:
 
 ![Screenshot (36)](https://user-images.githubusercontent.com/125504054/231598465-7c9fb8c1-eb81-4775-81e9-74c60c8973fa.png)
 
-# Creating Azure Resource Group, Azure Azure Static Web Apps and Azure Maps Account
+# Creating Azure Resource Group, Azure Static Web Apps and Azure Maps Account
 
 ![Screenshot (41)](https://user-images.githubusercontent.com/125504054/231608580-4ee40841-5faa-4dd0-bceb-56dd561b8651.png)
 
+
 ![Screenshot (39)](https://user-images.githubusercontent.com/125504054/231608603-74456ae9-ef6d-4220-84aa-0b1fa4500a0a.png)
+
 
 ![Screenshot (40)](https://user-images.githubusercontent.com/125504054/231608615-756c83c6-4575-493a-a37e-d31ff8b20c88.png)
 
