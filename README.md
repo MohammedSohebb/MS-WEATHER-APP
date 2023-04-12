@@ -49,6 +49,6 @@ web app:
 ![Screenshot (34)](https://user-images.githubusercontent.com/125504054/231598263-3110f246-3328-4991-9784-536ce92fd6c6.png)
 
 # azure maps :
-![Screenshot (34)](https://user-images.githubusercontent.com/125504054/231598381-e7b59efc-9f57-4a99-ba0f-3df3723da419.png)
+![Screenshot (35)](https://user-images.githubusercontent.com/125504054/231598673-9e9c2d98-50ad-40f7-ace9-bb844f57b37e.png)
 
 ![Screenshot (36)](https://user-images.githubusercontent.com/125504054/231598465-7c9fb8c1-eb81-4775-81e9-74c60c8973fa.png)
