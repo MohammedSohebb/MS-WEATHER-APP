@@ -43,12 +43,12 @@ Azure Static Web Apps: The app is hosted on Azure Static Web Apps, which provide
 Azure Maps: Azure Maps is used to provide geocoding functionality for the search functionality.
 
 # Screenshots 📸
-web app:
+# Web app:
 ![Screenshot (37)](https://user-images.githubusercontent.com/125504054/231598068-b0ae7395-e8fd-4c35-89ef-e81fdfcfe6b8.png)
 
 ![Screenshot (34)](https://user-images.githubusercontent.com/125504054/231598263-3110f246-3328-4991-9784-536ce92fd6c6.png)
 
-# azure maps :
+# Azure maps :
 ![Screenshot (35)](https://user-images.githubusercontent.com/125504054/231598673-9e9c2d98-50ad-40f7-ace9-bb844f57b37e.png)
 
 ![Screenshot (36)](https://user-images.githubusercontent.com/125504054/231598465-7c9fb8c1-eb81-4775-81e9-74c60c8973fa.png)
