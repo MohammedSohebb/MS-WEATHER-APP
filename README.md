@@ -17,30 +17,30 @@ The app is built using HTML, CSS, and JavaScript, and uses the Fetch API to retr
  
  # Features and Functionalities 😃
 
-> Weather Data Retrieval: The app allows users to retrieve temperature, humidity, and wind speed data for a specific city using the OpenWeather API.
+> <b>  Weather Data Retrieval :</b>  The app allows users to retrieve temperature, humidity, and wind speed data for a specific city using the OpenWeather API.
 
-> User-Friendly Interface: The app provides a clean and modern user interface that is easy to navigate and use. The app is designed to be mobile-friendly, so users can access weather information on-the-go from their smartphones and tablets.
+> <b> User-Friendly Interface: </b> The app provides a clean and modern user interface that is easy to navigate and use. The app is designed to be mobile-friendly, so users can access weather information on-the-go from their smartphones and tablets.
 
-> Search Functionality: The app allows users to enter a city name and retrieve weather data for that city. The search functionality is designed to be simple and intuitive, with a clear input field and a prominent "Search" button.
+> <b> Search Functionality: </b> The app allows users to enter a city name and retrieve weather data for that city. The search functionality is designed to be simple and intuitive, with a clear input field and a prominent "Search" button.
  
-> Error Handling: The app includes error handling functionality to ensure that users receive clear and helpful error messages if there are any issues with retrieving weather data.
+> <b> Error Handling:</b>  The app includes error handling functionality to ensure that users receive clear and helpful error messages if there are any issues with retrieving weather data.
 
-> Azure Services Integration: The app leverages Azure services such as Azure Static Web Apps and Azure Maps to provide a scalable and robust solution that can be easily expanded in the future. 
+> <b> Azure Services Integration:</b>  The app leverages Azure services such as Azure Static Web Apps and Azure Maps to provide a scalable and robust solution that can be easily expanded in the future. 
 
 # Tech Stack 💻
-HTML: The app's structure is built using HTML.
+<b> HTML:</b> The app's structure is built using HTML.
 
-CSS: The app's styling is done using CSS.
+<b> CSS:</b> The app's styling is done using CSS.
 
-JavaScript: The app's functionality is implemented using JavaScript.
+<b> JavaScript: </b>The app's functionality is implemented using JavaScript.
 
-Font Awesome: Font Awesome is used to provide icons for the temperature, humidity, and wind speed data.
+<b>Font Awesome:</b> Font Awesome is used to provide icons for the temperature, humidity, and wind speed data.
 
-OpenWeather API: The app uses the OpenWeather API to retrieve weather data for a specific city.
+<b>OpenWeather API:</b> The app uses the OpenWeather API to retrieve weather data for a specific city.
 
-Azure Static Web Apps: The app is hosted on Azure Static Web Apps, which provides automatic SSL certificate provisioning and built-in integration with GitHub for continuous deployment.
+<b>Azure Static Web Apps:</b> The app is hosted on Azure Static Web Apps, which provides automatic SSL certificate provisioning and built-in integration with GitHub for continuous deployment.
 
-Azure Maps: Azure Maps is used to provide geocoding functionality for the search functionality.
+<b>Azure Maps:</b> Azure Maps is used to provide geocoding functionality for the search functionality.
 
 # Screenshots 📸
 # Web app:
