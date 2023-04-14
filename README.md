@@ -5,7 +5,7 @@ The app is built using HTML, CSS, and JavaScript, and uses the Fetch API to retr
 
 > Live Project Link : ✨ https://calm-bush-0b13c1a0f.3.azurestaticapps.net/ ✨
 >
-> Demo Video Link :
+> Demo Video Link :   ✨ https://youtu.be/AqkXIpf7E90 ✨
 
 # Description
 
